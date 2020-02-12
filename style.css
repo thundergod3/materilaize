@@ -1,0 +1,35 @@
+body i {
+    font-family: 'FontAwesome';
+}
+
+header {
+    background-image: url(img/IMG_1540906448922_1540908373310.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 670px) {
+    header {
+        min-height: 500px
+    }
+    .parallax-container {
+        height: 150px;
+    }
+    /* .parallax {
+    background-attachment: parallax;
+} */
+}
